@@ -1,0 +1,8 @@
+{
+  "threshold": 0.14,
+  "val_f1": 0.6620689655172414,
+  "n_val": 100,
+  "text_col": "assistant_reply",
+  "label_col": "label",
+  "csv": "data/coercion_dataset_500_v1.csv"
+}
