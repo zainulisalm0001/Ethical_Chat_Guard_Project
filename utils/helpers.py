@@ -22,6 +22,7 @@ def render_highlighted(text: str, spans: list[dict]) -> str:
         elif cat == "inevitability":
             bg = "#ffb3b3"
         else:
+            
             bg = "#ffcc80"
 
         out.append(f"<span style='background-color:{bg}; padding:2px 4px; border-radius:4px;'>{frag}</span>")
